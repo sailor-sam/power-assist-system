@@ -1,0 +1,117 @@
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "(5.1.9)-1"
+    },
+    "CreationDate":  "2021-03-25T16:00:54-07:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "SP_CARRIER_A",
+      "GUID": "53505f43-4152-4524-9945-525f412e6b69",
+      "Revision": "rev?"
+    },
+    "Size":
+    {
+      "X": 44.500,
+      "Y": 13.385
+    },
+    "LayerNumber": 2,
+    "BoardThickness":  1.600
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.200,
+      "PadToTrack":  0.200,
+      "TrackToTrack":  0.200,
+      "MinLineWidth":  0.254
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "SP_CARRIER_A-F_Cu.gbr",
+      "FileFunction":  "Copper,L1,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SP_CARRIER_A-B_Cu.gbr",
+      "FileFunction":  "Copper,L2,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SP_CARRIER_A-F_Paste.gbr",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SP_CARRIER_A-B_Paste.gbr",
+      "FileFunction":  "SolderPaste,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SP_CARRIER_A-F_SilkS.gbr",
+      "FileFunction":  "Legend,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SP_CARRIER_A-F_Mask.gbr",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "SP_CARRIER_A-B_Mask.gbr",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "SP_CARRIER_A-Edge_Cuts.gbr",
+      "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer F.Mask"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer F.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L1/L2"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer B.Cu"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer B.Paste"
+    }
+  ]
+}

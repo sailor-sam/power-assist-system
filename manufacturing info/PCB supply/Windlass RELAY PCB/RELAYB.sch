@@ -1,0 +1,375 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 8150 7650 0    59   ~ 0
+2020-05-14
+Text Notes 10600 7650 0    59   ~ 0
+A
+Text Notes 7350 7500 0    59   ~ 0
+Power Assist System - MK V PCB
+Wire Wire Line
+	4850 4900 4850 4750
+$Comp
+L Relay:Fujitsu_FTR-F1C K1
+U 1 1 5ED3CEEA
+P 5050 5200
+F 0 "K1" V 5004 5580 50  0000 L CNN
+F 1 "ARBITRARY GRAPHIC" V 5095 5580 50  0000 L CNN
+F 2 "IML parts:Relay_DPDT_reversing_FTR-P2-10V" H 5000 4800 50  0001 C CNN
+F 3 "https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-f1.pdf" H 5050 5200 50  0001 C CNN
+	1    5050 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 5500 5150 5700
+Wire Wire Line
+	5150 5700 3750 5700
+Wire Wire Line
+	5250 4850 5250 4900
+$Comp
+L power:GNDREF #PWR0112
+U 1 1 5EDC5EFA
+P 4950 5900
+F 0 "#PWR0112" H 4950 5650 50  0001 C CNN
+F 1 "GNDREF" H 4955 5727 30  0000 C CNN
+F 2 "" H 4950 5900 50  0001 C CNN
+F 3 "" H 4950 5900 50  0001 C CNN
+	1    4950 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5600 5050 5500
+Wire Wire Line
+	4950 5500 4950 5900
+$Comp
+L Device:D_TVS_ALT D2
+U 1 1 5EDF865D
+P 3750 5200
+F 0 "D2" V 3704 5279 50  0000 L CNN
+F 1 "SA15CA" V 3795 5279 50  0000 L CNN
+F 2 "Diode_THT:D_T-1_P12.70mm_Horizontal" H 3750 5200 50  0001 C CNN
+F 3 "~" H 3750 5200 50  0001 C CNN
+	1    3750 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5EDFA22E
+P 3200 5200
+F 0 "C1" H 3315 5246 50  0000 L CNN
+F 1 ".1uF POLY" H 3315 5155 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 3238 5050 50  0001 C CNN
+F 3 "~" H 3200 5200 50  0001 C CNN
+	1    3200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5050 3200 4750
+Connection ~ 3200 4750
+Wire Wire Line
+	3200 4750 2800 4750
+Wire Wire Line
+	3750 5050 3750 4750
+Wire Wire Line
+	3200 4750 3750 4750
+Connection ~ 3750 4750
+Wire Wire Line
+	3750 4750 4850 4750
+Wire Wire Line
+	3750 5350 3750 5700
+Connection ~ 3750 5700
+Wire Wire Line
+	3750 5700 3200 5700
+Wire Wire Line
+	3200 5350 3200 5700
+Connection ~ 3200 5700
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5ED31F61
+P 5100 3050
+F 0 "SW1" H 5100 3335 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 5100 3244 50  0000 C CNN
+F 2 "IML parts:DPDT_SW" H 5100 3050 50  0001 C CNN
+F 3 "~" H 5100 3050 50  0001 C CNN
+	1    5100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5ED35DDA
+P 8100 1650
+F 0 "D1" H 8093 1866 50  0000 C CNN
+F 1 "LED" H 8093 1775 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 8100 1650 50  0001 C CNN
+F 3 "~" H 8100 1650 50  0001 C CNN
+	1    8100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5ED36825
+P 8400 1650
+F 0 "R1" V 8607 1650 50  0000 C CNN
+F 1 "470R" V 8516 1650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8330 1650 50  0001 C CNN
+F 3 "~" H 8400 1650 50  0001 C CNN
+	1    8400 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5ED36C9A
+P 6600 4050
+F 0 "R2" V 6807 4050 50  0000 C CNN
+F 1 "47R" V 6716 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6530 4050 50  0001 C CNN
+F 3 "~" H 6600 4050 50  0001 C CNN
+	1    6600 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5ED3A48C
+P 9400 3950
+F 0 "J1" H 9318 3725 50  0000 C CNN
+F 1 "+12V" H 9318 3816 50  0000 C CNN
+F 2 "IML parts:250spadeconn" H 9400 3950 50  0001 C CNN
+F 3 "~" H 9400 3950 50  0001 C CNN
+	1    9400 3950
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5ED3AAC2
+P 9400 3400
+F 0 "J2" H 9318 3175 50  0000 C CNN
+F 1 "GND" H 9318 3266 50  0000 C CNN
+F 2 "IML parts:250spadeconn" H 9400 3400 50  0001 C CNN
+F 3 "~" H 9400 3400 50  0001 C CNN
+	1    9400 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5ED3B239
+P 9400 2800
+F 0 "J3" H 9318 2575 50  0000 C CNN
+F 1 "GRN" H 9318 2666 50  0000 C CNN
+F 2 "IML parts:250spadeconn" H 9400 2800 50  0001 C CNN
+F 3 "~" H 9400 2800 50  0001 C CNN
+	1    9400 2800
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5ED3B8E2
+P 9400 2250
+F 0 "J4" H 9318 2025 50  0000 C CNN
+F 1 "WHT" H 9318 2116 50  0000 C CNN
+F 2 "IML parts:250spadeconn" H 9400 2250 50  0001 C CNN
+F 3 "~" H 9400 2250 50  0001 C CNN
+	1    9400 2250
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5ED3BF67
+P 9400 1650
+F 0 "J5" H 9318 1425 50  0000 C CNN
+F 1 "YEL" H 9318 1516 50  0000 C CNN
+F 2 "IML parts:250spadeconn" H 9400 1650 50  0001 C CNN
+F 3 "~" H 9400 1650 50  0001 C CNN
+	1    9400 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F1
+U 1 1 5ED3FBFB
+P 8050 4000
+F 0 "F1" V 7825 4000 50  0000 C CNN
+F 1 "Polyfuse" V 7916 4000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8100 3800 50  0001 L CNN
+F 3 "~" H 8050 4000 50  0001 C CNN
+	1    8050 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0101
+U 1 1 5ED4AF6B
+P 9750 4200
+F 0 "#PWR0101" H 9750 4050 50  0001 C CNN
+F 1 "+12V" H 9765 4373 50  0000 C CNN
+F 2 "" H 9750 4200 50  0001 C CNN
+F 3 "" H 9750 4200 50  0001 C CNN
+	1    9750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0102
+U 1 1 5ED4B5C0
+P 9750 3550
+F 0 "#PWR0102" H 9750 3300 50  0001 C CNN
+F 1 "GNDREF" H 9755 3377 50  0000 C CNN
+F 2 "" H 9750 3550 50  0001 C CNN
+F 3 "" H 9750 3550 50  0001 C CNN
+	1    9750 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4050 6450 4050
+Wire Wire Line
+	5050 4050 5050 4900
+Wire Wire Line
+	7900 4050 7900 4000
+Wire Wire Line
+	9200 3950 9150 3950
+Wire Wire Line
+	8200 3950 8200 4000
+Wire Wire Line
+	6750 4050 7450 4050
+Wire Wire Line
+	9200 3400 9150 3400
+Wire Wire Line
+	6050 3400 6050 3850
+Wire Wire Line
+	6050 3850 4650 3850
+Wire Wire Line
+	4650 3850 4650 3600
+Wire Wire Line
+	4650 3600 4900 3600
+Wire Wire Line
+	4650 3600 4650 3050
+Wire Wire Line
+	4650 3050 4900 3050
+Connection ~ 4650 3600
+Wire Wire Line
+	5300 3500 5500 3500
+Wire Wire Line
+	5500 3500 5500 4850
+Wire Wire Line
+	5500 4850 5250 4850
+Wire Wire Line
+	5500 3500 5500 2950
+Wire Wire Line
+	5500 2950 5300 2950
+Connection ~ 5500 3500
+Wire Wire Line
+	5300 3150 5400 3150
+Wire Wire Line
+	5400 3150 5400 3700
+Wire Wire Line
+	5400 3700 5300 3700
+Wire Wire Line
+	5400 3700 5400 4500
+Wire Wire Line
+	5400 4500 4600 4500
+Wire Wire Line
+	4600 4500 4600 5500
+Connection ~ 5400 3700
+Wire Wire Line
+	4600 5500 4850 5500
+Wire Wire Line
+	5500 4850 8750 4850
+Wire Wire Line
+	8750 4850 8750 2800
+Wire Wire Line
+	8750 2800 9200 2800
+Connection ~ 5500 4850
+Wire Wire Line
+	5400 4500 9000 4500
+Wire Wire Line
+	9000 4500 9000 2250
+Wire Wire Line
+	9000 2250 9200 2250
+Connection ~ 5400 4500
+Wire Wire Line
+	9200 1650 8550 1650
+Wire Wire Line
+	7950 1650 7450 1650
+Wire Wire Line
+	7450 1650 7450 4050
+Connection ~ 7450 4050
+Wire Wire Line
+	7450 4050 7900 4050
+Wire Wire Line
+	9750 4200 9150 4200
+Wire Wire Line
+	9150 4200 9150 3950
+Connection ~ 9150 3950
+Wire Wire Line
+	9150 3950 8200 3950
+Wire Wire Line
+	9750 3550 9150 3550
+Wire Wire Line
+	9150 3550 9150 3400
+Connection ~ 9150 3400
+Wire Wire Line
+	9150 3400 6050 3400
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5ED62514
+P 2350 5050
+F 0 "J6" H 2268 5267 50  0000 C CNN
+F 1 "A" H 2268 5176 50  0000 C CNN
+F 2 "IML parts:250spadeconn" H 2350 5050 50  0001 C CNN
+F 3 "~" H 2350 5050 50  0001 C CNN
+	1    2350 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5ED6299A
+P 2350 5500
+F 0 "J7" H 2268 5717 50  0000 C CNN
+F 1 "B" H 2268 5626 50  0000 C CNN
+F 2 "IML parts:250spadeconn" H 2350 5500 50  0001 C CNN
+F 3 "~" H 2350 5500 50  0001 C CNN
+	1    2350 5500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4750 2800 5050
+Wire Wire Line
+	2800 5050 2550 5050
+Wire Wire Line
+	3200 5700 2800 5700
+Wire Wire Line
+	2800 5700 2800 5500
+Wire Wire Line
+	2800 5500 2550 5500
+Wire Wire Line
+	7450 5600 7450 4050
+Wire Wire Line
+	5050 5600 7450 5600
+$Comp
+L Switch:SW_DPDT_x2 SW1B1
+U 1 1 5ED72C89
+P 5100 3600
+F 0 "SW1B1" H 5100 3885 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 5100 3794 50  0000 C CNN
+F 2 "IML parts:DPDT_SW" H 5100 3600 50  0001 C CNN
+F 3 "~" H 5100 3600 50  0001 C CNN
+	1    5100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4000 8200 4100
+Wire Wire Line
+	8200 4100 7900 4100
+Wire Wire Line
+	7900 4100 7900 4050
+Connection ~ 8200 4000
+Connection ~ 7900 4050
+$EndSCHEMATC

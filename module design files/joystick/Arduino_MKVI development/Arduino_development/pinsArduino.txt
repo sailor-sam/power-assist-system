@@ -1,0 +1,28 @@
+#define 	RESET	  	1	// I  PC6
+#define 	USB TXD		2	// O  PD0
+#define 	USB RXD   	3	// I  PD1
+#define 	BUZZER    	4	// O  PD4
+#define 	PWM1     	5	// O  PD3
+#define 	PWM1_DIRECTION 	6	// O  PD4
+#define 	WINDLASS_LMP 	11	// O  PD5
+#define 	WINCH_OUT 	12	// O  PD6
+#define 	WINCH_IN  	13	// O  PD7
+#define 	RC1_INPUT	14	// I  PB0
+#define 	RC2_INPUT	15	// I  PB1
+#define 	BAT_LOW_LED  	16	// O  PB2
+#define		WINCH_LED	17	// O  PB3
+#define		HELM_LED  	18	// O  PB4
+#define		HEARTBEAT_LED 	19	// O  PB5
+#define		JOYSTICK_HELM	23	// I  PC0
+#define		JOYSTICK_WIND	24	// I  PC1
+#define 	SIPPUFF_HELM	25	// I  PC2
+#define		SIPPUFF_WIND	26	// I  PC3
+#define 	BATTERY    	27	// I  PC4
+
+
+
+
+
+
+
+
