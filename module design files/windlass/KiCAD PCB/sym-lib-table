@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name DSAMKVE-cache)(type Legacy)(uri "C:/Data files/Power Assist System/Product Design & Revision files/Mk V Design docs/DSAMKVD/DSAMKVE-cache.lib")(options "")(descr ""))
+  (lib (name V23086C2001A403)(type Legacy)(uri ${KIPRJMOD}/V23086C2001A403/V23086C2001A403.lib)(options "")(descr ""))
+)

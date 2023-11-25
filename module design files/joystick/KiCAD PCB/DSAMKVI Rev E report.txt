@@ -1,0 +1,8 @@
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI Redesign 2023\DSAMKVIA KiCad\DSAMKVI REV B - E\DSAMKVIE-F_Cu.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI Redesign 2023\DSAMKVIA KiCad\DSAMKVI REV B - E\DSAMKVIE-B_Cu.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI Redesign 2023\DSAMKVIA KiCad\DSAMKVI REV B - E\DSAMKVIE-F_Paste.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI Redesign 2023\DSAMKVIA KiCad\DSAMKVI REV B - E\DSAMKVIE-B_Paste.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI Redesign 2023\DSAMKVIA KiCad\DSAMKVI REV B - E\DSAMKVIE-F_SilkS.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI Redesign 2023\DSAMKVIA KiCad\DSAMKVI REV B - E\DSAMKVIE-F_Mask.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI Redesign 2023\DSAMKVIA KiCad\DSAMKVI REV B - E\DSAMKVIE-B_Mask.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI Redesign 2023\DSAMKVIA KiCad\DSAMKVI REV B - E\DSAMKVIE-Edge_Cuts.gbr" created.

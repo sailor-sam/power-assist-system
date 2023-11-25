@@ -1,0 +1,8 @@
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI design\RELAYB\RELAYC-F_Cu.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI design\RELAYB\RELAYC-B_Cu.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI design\RELAYB\RELAYC-F_Paste.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI design\RELAYB\RELAYC-B_Paste.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI design\RELAYB\RELAYC-F_SilkS.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI design\RELAYB\RELAYC-F_Mask.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI design\RELAYB\RELAYC-B_Mask.gbr" created.
+Plot file "C:\Data files\Power Assist System\Product Design & Revision files\Mk VI design\RELAYB\RELAYC-Edge_Cuts.gbr" created.
